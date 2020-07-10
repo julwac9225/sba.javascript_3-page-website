@@ -1,0 +1,80 @@
+html {
+    font-family: Cambria, serif;
+    color: midnightblue;
+    font-size: 20px;  
+}
+header {
+    background-color: plum;
+}
+body {
+    background-color: plum;
+    background-position: center;
+    background-size: cover;
+    width: 980px;
+    margin: 40px;
+    padding: 10px;
+    padding-top: 0px;     
+}
+.navbar {
+    width: 100%;
+    overflow: auto;
+    background-color: gray;
+}
+block {
+    display: inline;
+    min-width: 150px;
+    min-height: 50px;
+    border: 20px;
+    font-size: 20px;
+    text-align: center;   
+}
+block:hover {
+        background-color: aqua;
+}
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, [col] 150px ) ;
+    grid-template-rows: repeat(3, [row] auto  );
+    background-color: plum;
+    color: grey;
+}
+.container > div {
+    display: inline;
+}
+.container img {
+    max-width: 100%;
+    vertical-align: right;
+}
+.box {
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+.a {
+    grid-column: col / span 2;
+    grid-row: row ;
+    background-color: grey;
+}
+.b {
+    grid-column: col 3 / span 2 ;
+    grid-row: row ;
+    background-color: purple;
+}
+.c {
+    grid-column: col ;
+    grid-row: row 2 ;
+    background-color: teal;
+}
+.d {
+    grid-column: col 2 / span 3 ;
+    grid-row: row 2 ;
+    background-color: tomato;
+}
+
+.e {
+    grid-column: col / span 4;
+    grid-row: row 3;
+    background-color: turquoise;
+}

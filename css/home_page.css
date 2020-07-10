@@ -1,0 +1,62 @@
+html {
+    font-family: Cambria, serif;
+    color: midnightblue;
+    font-size: 15px;  
+}
+header {
+    background-color: plum;
+}
+body {
+    background-color: plum;
+    background-position: center;
+    background-size: cover;
+    width: 980px;
+    margin-left: auto;
+    margin-right: 30px;
+    padding: 10px;
+    padding-top: 0px;     
+}
+img {
+    float: right;
+}
+.navbar {
+    width: 100%;
+    overflow: auto;
+    background-color: gray;
+}
+block {
+    display: inline;
+    min-width: 150px;
+    min-height: 50px;
+    border: 20px;
+    font-size: 20px;
+    text-align: center;   
+}
+block:hover {
+        background-color: aqua;
+}
+aside {
+    float : left;
+    width : 320px;
+    height: 800px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: pink;
+    border : 1px solid lavenderblush;
+}
+aside form {
+	display:inline-block;
+    line-height: 2em;
+    margin-bottom: 100px;
+    text-align: right;
+}
+aside form {
+    display:inline-block;
+    line-height: 2em;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    text-align: right;
+}
+ 
