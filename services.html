@@ -11,6 +11,8 @@
   <meta name="author" content="Julia Waclawek">
 
   <link href="./css/services.css" rel="stylesheet">
+  <script type="text/javascript" src="./js/utils.js"></script>
+  <script type="text/javascript" src="./js/services.js"></script>
   <script type="text/javascript" src="./js/header-functions.js"></script>
 
 </head> <!-- header ends here -->
@@ -19,27 +21,70 @@
 <!-- ----------------------------------------------------------------- -->
     <body>
         <header>
-            <h2>Party Time</h2>
-            <div class="navbar">
-                <ul>
-                    <button onclick= a href="home_page.html" class="block"><b>Home</b></button>
-                    <button onclick= a href="services.html" class="block"><b>Search</b></button>
-                    <button onclick= a href="contact_us.html" class="block"><b>Contact us</b></button>
-                    <button onclick= a href="services.html"class="block"><b>Our Services</b></button>
-                </ul>
-            </div>
+            <h2><center>Party Time! We Bring Life to Your Party!</center></h2>
+            <div class="topNavBar" id="myTopnav">
+                <a href="home_page.html" >Home</a>
+                <a href="services.html" class="active">Services</a>
+                <a href="contact_us.html">Contact Us</a>
+                <a href="search.html">Search</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
         </header>
         <h1>Our Services</h1>
         <h3>We can make your event happen!</h3>
         <div class="container">
-            <div><img src="./img/party-organiser.jpeg" width="312" height="205" ></div>
-            <div><img src="./img/birthday.jpg" width="312" height="205" ></div>
-        </div><div class="wrapper">
-            <div class="box a">Party Supplies</div>
-            <div class="box b">Event Setting</div>
-            <div class="box c">Event Planning</div>
-            <div class="box d">Catering</div>
-            <div class="box e">Flowers & Gifts</div>
+            <div><img src="./img/party-organiser.jpeg" width="355" height="225" ></div>
+            <div><img src="./img/birthday.jpg" width="355" height="225" ></div>
+        </div>
+        <div class="wrapper">
+            <div class="box a">
+              <label for="party_supplies">Party Supplies</label>
+              <select id="party_supplies" name="party_supplies">
+                    <option value="by color">By Color</option>
+                    <option value="by theme">By Theme</option>
+                    <option value="by age">By Age</option>
+                    <option value="games">Games</option>
+                    <option value="costumes">Costumes</option>
+              </select>
+            </div>
+            <div class="box b">
+              <label for="event_setting">Event Setting</label>
+              <select id="event_setting" name="event_setting">
+                    <option value="pool">Pool Party</option>
+                    <option value="garden">Garden Party</option>
+                    <option value="block">Block Party</option>
+                    <option value="corporate">Corporate Event</option>
+              </select>
+            </div>
+            <div class="box c">
+              <label for="event_planning">Event Planning</label>
+              <select id="event_planning" name="event_planning">
+                    <option value="fundraising">Fundraising</option>
+                    <option value="graduation">Graduation</option>
+                    <option value="showers">Showers</option>
+                    <option value="destination">Destination Wedding</option>
+              </select>
+            </div>
+            <div class="box d">
+              <label for="catering">Catering</label>
+              <select id="catering" name="catering">
+                    <option value="tea">Tea Party</option>
+                    <option value="cocktail">Cocktail Party</option>
+                    <option value="dinner">Dinner Party</option>
+                    <option value="banquet">Banquet</option>
+              </select>
+            </div>
+            <div class="box e">
+              <label for="flowers_gifts">Flowers & Gifts</label>
+              <select id="flowers_gifts" name="flowers_gifts">
+                    <option value="vased">In a vase</option>
+                    <option value="plant">Plant</option>
+                    <option value="lavish">Lavish</option>
+                    <option value="modern">Modern</option>
+              </select>
+            </div>
           </div>
         
   <footer>

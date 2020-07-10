@@ -11,6 +11,8 @@
   <meta name="author" content="Julia Waclawek">
 
   <link href="./css/contact_us.css" rel="stylesheet">
+  <script type="text/javascript" src="./js/utils.js"></script>
+  <script type="text/javascript" src="./js/contact_us.js"></script>
   <script type="text/javascript" src="./js/header-functions.js"></script>
 
 </head> <!-- header ends here -->
@@ -19,15 +21,16 @@
 <!-- ----------------------------------------------------------------- -->
     <body>
         <header>
-            <h2>Party Time</h2>
-            <div class="navbar">
-                <ul>
-                    <button onclick= a href="home_page.html" class="block"><b>Home</b></button>
-                    <button onclick= a href="services.html" class="block"><b>Search</b></button>
-                    <button onclick= a href="contact_us.html" class="block"><b>Contact us</b></button>
-                    <button onclick= a href="services.html"class="block"><b>Our Services</b></button>
-                </ul>
-            </div>
+            <h2><center>Party Time! We Bring Life to Your Party!</center></h2>
+            <div class="topNavBar" id="myTopnav">
+                <a href="home_page.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="contact_us.html" class="active">Contact Us</a>
+                <a href="search.html">Search</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
         </header>
         <div class="container">
             <div style="text-align:center">
