@@ -1,5 +1,7 @@
+Access my website by navigating to the following link  https://julwac9225.github.io/sba.javascript_3-page-website/
+
 # AD - SBA - HTML/CSS/JavaScript
-Party Time
+Party Time website
 ### Description
 * The website created for the company Party Time that offers variety of party services and supplies.
 The website style is user-friendly and includes 3 standard webpages: Home Page, Contact Us, and Our Services.
